@@ -28,13 +28,22 @@
     //添加北理工校徽
     logo: image("assets/bit-logo.svg"),
   ),
-   //添加北理工专属绿色
+   //添加北理工专属绿色 嘻嘻
   config-colors(
         //标题和footer-c/d的颜色
-        primary: rgb("#00773E"),
+        primary: rgb("#036234"),
+        primary-dark: rgb("#1fab89"),
+        secondary: rgb("#ffffff"),
+        tertiary: rgb("#359a63"),
+        neutral-lightest: rgb("#fcfff5"),
         // footer-a/b的颜色
         neutral-darkest: rgb("#00562E"),
    ),
+   //
+   config-common(
+    
+   ),
+   config-page()
 )
 
 // -------- 目录编号风格（可选）--------
